@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1 id="title">A Nice Survey</h1>
+        <p id="description">Please fill this survey. We really want to read your opinion.</p>
+      </article>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Write your name please"required>
+        <label id="email-label" for="email">Email Address: </label>
+        <input type="email" id="email" name="email" placeholder="Write your email please" required>
+          <label id="number-label" for="age" >Age: </label>
+        <input type="number" id="number" name="age" placeholder="Select your age please" required min="18" max="50">
+        <fieldset>
+          <legend>What does the survey look like?</legend>
+            <select id="dropdown">
+              <option id="great">Great</option>
+              <option id="normal">Normal</option>
+              <option id="not-bad">Not bad</option>
+            <select>   
+        </fieldset>
+        <fieldset>
+          <legend>Are you a web designer?</legend>
+            <label id="radio-label" for="attribute" >Yes </label>
+            <input type="radio"    name="attribute" value="yes">
+            <label id="radio-label" for="attribute" >No </label>
+            <input type="radio"    name="attribute" value="No">
+        </fieldset>
+        <fieldset>
+         <legend>Would you like to work with me?</legend>
+            <label id="check-label" for="yes" >Yes </label>
+            <input type="checkbox" name="yes" value="yes">
+            <label id="check-label" for="no" >No </label>
+            <input type="checkbox" name="no" value="No">
+        </fieldset>
+        <label id="opinion-label" for="opinion">What is your opinion about the survey?</label>
+        <textarea id="opinion" name="opinion" placeholder="Why I should join you?" required></textarea>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </main>
+  </body>
+</html>

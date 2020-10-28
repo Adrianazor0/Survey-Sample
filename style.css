@@ -1,0 +1,107 @@
+ @media (max-width: 600px){
+ body{
+  background-image: url("https://images8.alphacoders.com/100/thumb-1920-1006608.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+  padding: 5px;
+}
+article{
+  text-align:center;
+  color: white;
+  font-size: 25px;
+}
+form{
+  display: grid;
+  grid-template-areas:
+      "name-label"
+      "email-label"
+      "number-label";
+  background-color: snow;
+  opacity: 0.90;
+  max-width: 60%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+form label,fieldset{
+  margin-top: 20px;
+}
+form input[type=text], input[type=email],input[type=number],fieldset, textarea {
+  max-width: 100%;
+  height: 30px;
+  padding: 10px;
+}
+form fieldset{
+     height: auto;
+   }
+form textarea{
+  resize: none;
+  height: 200px;
+}
+form input[type=submit]{
+  margin-top: 20px;
+  max-width: 50%;
+  height: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(227,66,51);
+  border-radius: 25px;
+  color: white;
+}  
+  }
+@media (min-width: 601px){
+body{
+  background-image: url("https://images8.alphacoders.com/100/thumb-1920-1006608.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  padding: 10px;
+}
+article{
+  text-align:center;
+  color: white;
+  font-size: 25px;
+}
+form{
+  display: grid;
+  grid-template-areas:
+      "name-label"
+      "email-label"
+      "number-label";
+  background-color: snow;
+  opacity: 0.90;
+  max-width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+form label,fieldset{
+  margin-top: 20px;
+}
+form input[type=text], input[type=email],input[type=number],fieldset, textarea {
+  max-width: 100%;
+  height: 30px;
+  padding: 20px;
+}
+form textarea{
+  resize: none;
+  height: 200px;
+}
+form input[type=submit]{
+  margin-top: 20px;
+  max-width: 50%;
+  height: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(227,66,51);
+  border-radius: 25px;
+  color: white;
+}  
+}
